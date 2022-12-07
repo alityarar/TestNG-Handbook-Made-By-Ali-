@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Bir xml dosyasi ile projemizden istedigimiz testleri, packageleri
+classlari veya test methodlarini calistirabiliriz. Bunun icin yapmamiz
+gereken suite'den baslayip test hiyerarsisine uygun olarak calisacak tum
+testleri xml formatinda yazmamizdir.-->
+ <suite name="istenen class'lari calistirma">
+        <test name="Classlar">
+            <classes>
+                <class name="tests.day16_notations.C03_Priority"></class>
+                <class name="tests.day17_pom.C01_NewDriverFirstClass"></class>
+            </classes>
+        </test>
+</suite>
